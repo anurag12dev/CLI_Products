@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CLI_Products": {
+      "commandName": "Project",
+      "commandLineArgs": "softwareadvice feed-products\\softwareadvice.json"
+    }
+  }
+}

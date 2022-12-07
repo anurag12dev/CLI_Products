@@ -21,7 +21,8 @@ Considerations:
 - Please provide a short summary detailing anything you think is relevant, for example:
 
   - Installation steps
-  I have shared a separate word file with all installation steps. Please follow the document.
+  
+  I have shared a separate word document with all installation steps. Please follow the document.
   
 ->As a pre-requisite copy the folder "feed-products" from the solution along with its content files into C drive like "C:\feed-products". Assuming this is the source location for the products.
 1.	To view any installed tool for dotnet use command in command prompt :

@@ -26,6 +26,9 @@ Considerations:
   - How to run your code / tests
 	->This is a c# console application and code can be run either by installing nupkg file in system or from Visual studio(used VS2022 .net6.0). It needs 2 arguments, one for source name and second for path name like "capterra feed-products\capterra.yaml" or "softwareadvice feed-products\softwareadvice.json".
   - Where to find your code
+  	->https://github.com/anurag12dev/CLI_Products
+	you can either clone the repository into your machine or download the zip and unzip it and then run the solution using VS2022.
+
   - Was it your first time writing a unit test, using a particular framework, etc?
   	->I am already using xUnit for test cases. Here I have used nUnit.
   - What would you have done differently if you had had more time.Etc.

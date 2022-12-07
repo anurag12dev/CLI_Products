@@ -47,7 +47,7 @@ dotnet tool uninstall -g cli_products
 	you can either clone the repository into your machine or download the zip and unzip it and then run the solution using VS2022.
 
   - Was it your first time writing a unit test, using a particular framework, etc?
-  	->I am already using xUnit for test cases. Here I have used nUnit along with Moq.
+  	->I am already using xUnit for test case writing in my project. Here I have used nUnit along with Moq.
   - What would you have done differently if you had had more time.Etc.
   	->I could have added provision for logs by adding a separate log file. Also I could have done the full implementation using database like MySql or Sql server.
 * * * 

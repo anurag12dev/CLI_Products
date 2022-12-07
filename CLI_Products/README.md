@@ -21,7 +21,23 @@ Considerations:
 - Please provide a short summary detailing anything you think is relevant, for example:
 
   - Installation steps
-	->As a pre-requisite copy the folder "feed-products" from the solution along with its content files into C drive like "C:\feed-products". Assuming this is the source location for the products.
+  I have shared a separate word file with all installation steps. Please follow the document.
+  
+->As a pre-requisite copy the folder "feed-products" from the solution along with its content files into C drive like "C:\feed-products". Assuming this is the source location for the products.
+1.	To view any installed tool for dotnet use command in command prompt :
+dotnet tool list –g
+2.	To install CLI_Products tool globally in the system. Use below command:
+dotnet tool install --global --add-source <path for nupkg file> <tool name>
+Example: dotnet tool install --global --add-source  D:\CLI_Products-master\CLI_Products\nupkg CLI_Products
+
+3.	To run the tool use “import” command. This tool accepts 2 argument so it can be run using the sample command given below:
+import softwareadvice feed-products\softwareadvice.json
+or
+import capterra feed-products\capterra.yaml
+ 
+4.	To uninstall the tool use command:
+dotnet tool uninstall -g cli_products
+
 
   - How to run your code / tests
 	->This is a c# console application and code can be run either by installing nupkg file in system or from Visual studio(used VS2022 .net6.0). It needs 2 arguments, one for source name and second for path name like "capterra feed-products\capterra.yaml" or "softwareadvice feed-products\softwareadvice.json".
@@ -30,7 +46,7 @@ Considerations:
 	you can either clone the repository into your machine or download the zip and unzip it and then run the solution using VS2022.
 
   - Was it your first time writing a unit test, using a particular framework, etc?
-  	->I am already using xUnit for test cases. Here I have used nUnit.
+  	->I am already using xUnit for test cases. Here I have used nUnit along with Moq.
   - What would you have done differently if you had had more time.Etc.
   	->I could have added provision for logs by adding a separate log file. Also I could have done the full implementation using database like MySql or Sql server.
 * * * 
